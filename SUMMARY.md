@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Base Airdrop](README.md)
+  * [NFT1: Deploying to a testnet](base-airdrop/nft1-deploying-to-a-testnet.md)
+  * [NFT2: Control Structures](base-airdrop/nft2-control-structures.md)
+  * [NFT3: Storage\*](base-airdrop/nft3-storage.md)
+  * [NFT4: Arrays](base-airdrop/nft4-arrays.md)
+  * [NFT5: Mapping](base-airdrop/nft5-mapping.md)
+  * [NFT6: Structs](base-airdrop/nft6-structs.md)
+  * [NFT7: Inheritance\*](base-airdrop/nft7-inheritance.md)
+  * [NFT8: Imports\*](base-airdrop/nft8-imports.md)
+  * [NFT9: Errors](base-airdrop/nft9-errors.md)
+  * [NFT10: The "new" keyword\*](base-airdrop/nft10-the-new-keyword.md)
+  * [NFT11: Minimal Tokens](base-airdrop/nft11-minimal-tokens.md)
+  * [NFT12: ERC-20 Tokens\*](base-airdrop/nft12-erc-20-tokens.md)
+  * [NFT13: ERC-721 Tokens](base-airdrop/nft13-erc-721-tokens.md)
