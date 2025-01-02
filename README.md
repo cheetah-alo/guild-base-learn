@@ -3,7 +3,7 @@ cover: .gitbook/assets/Screenshot 2024-12-28 at 9.58.03 PM.png
 coverY: -67
 ---
 
-# Base Airdrop
+# Guild Base Learn
 
 Para realizar estas tareas, se debe tener conocimiento de como desplegar un contrato en REMIX conectanto tu wallet de Matamask. La red a utilizar es Base Sepolia, la cual debe estar activa en la wallet que utilices y contar con ETH de faucet.&#x20;
 
@@ -34,8 +34,6 @@ Luego de completarlos todos, y verificar que se han desplegado correctamente ten
 
 
 <figure><img src=".gitbook/assets/Screenshot 2024-12-28 at 9.58.03 PM.png" alt=""><figcaption></figcaption></figure>
-
-Go to Play!
 
 
 
