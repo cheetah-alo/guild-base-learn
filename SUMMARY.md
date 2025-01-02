@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Guild Base Learn](README.md)
+  * [NFT1: Deploying to a testnet](guild-base-learn/nft1-deploying-to-a-testnet.md)
+  * [NFT2: Control Structures](guild-base-learn/nft2-control-structures.md)
+  * [NFT3: Storage\*](guild-base-learn/nft3-storage.md)
+  * [NFT4: Arrays](guild-base-learn/nft4-arrays.md)
+  * [NFT5: Mapping](guild-base-learn/nft5-mapping.md)
+  * [NFT6: Structs](guild-base-learn/nft6-structs.md)
+  * [NFT7: Inheritance\*](guild-base-learn/nft7-inheritance.md)
+  * [NFT8: Imports\*](guild-base-learn/nft8-imports.md)
+  * [NFT9: Errors](guild-base-learn/nft9-errors.md)
+  * [NFT10: The "new" keyword\*](guild-base-learn/nft10-the-new-keyword.md)
+  * [NFT11: Minimal Tokens](guild-base-learn/nft11-minimal-tokens.md)
+  * [NFT12: ERC-20 Tokens\*](guild-base-learn/nft12-erc-20-tokens.md)
+  * [NFT13: ERC-721 Tokens](guild-base-learn/nft13-erc-721-tokens.md)
