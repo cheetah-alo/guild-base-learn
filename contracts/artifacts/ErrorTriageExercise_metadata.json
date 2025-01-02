@@ -1,0 +1,173 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "addToArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_modifier",
+						"type": "int256"
+					}
+				],
+				"name": "applyModifier",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "returnValue",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_c",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_d",
+						"type": "uint256"
+					}
+				],
+				"name": "diffWithNeighbor",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popWithReturn",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "returnNum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"applyModifier(uint256,int256)": {
+					"details": "Changes the base by the value of the modifier. Base is always >= 1000. Modifiers can be between positive and negative 100. ",
+					"params": {
+						"_base": "The base value to be modified.",
+						"_modifier": "The value by which the base should be modified. "
+					},
+					"returns": {
+						"returnValue": "The modified value of the base."
+					}
+				},
+				"diffWithNeighbor(uint256,uint256,uint256,uint256)": {
+					"details": "Finds the difference between each uint with its neighbor (a to b, b to c, etc.) and returns a uint array with the absolute integer difference of each pairing. ",
+					"params": {
+						"_a": "The first unsigned integer.",
+						"_b": "The second unsigned integer.",
+						"_c": "The third unsigned integer.",
+						"_d": "The fourth unsigned integer. "
+					},
+					"returns": {
+						"_0": "results An array containing the absolute differences between each pair of integers."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NFT9_Errors.sol": "ErrorTriageExercise"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NFT9_Errors.sol": {
+			"keccak256": "0xa5eb8b2782c95337aa88d5d905b8d9ec1c2ad4d372898df1c9c87593438dfd6f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ddd0e0e4f607013b0d00a2f90fd2f4e37d8829c66e6c2dcf395fe7efd27de96c",
+				"dweb:/ipfs/QmWLV7qf5JhKXG9sycNVJnYMmda4Tn43WqfwwtSU7eHrN4"
+			]
+		}
+	},
+	"version": 1
+}
