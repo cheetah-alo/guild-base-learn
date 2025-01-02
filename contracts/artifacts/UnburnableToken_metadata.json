@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "AllTokensClaimed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "TokensClaimed",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "UnsafeTransfer",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "claim",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "safeTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalClaimed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Contract implementing an unburnable token with claim and safe transfer functionality.",
+			"kind": "dev",
+			"methods": {
+				"claim()": {
+					"details": "Public function to claim tokens. Each address can claim 1000 tokens if they haven't claimed before. Reverts if all tokens have been claimed or the caller has already claimed."
+				},
+				"constructor": {
+					"details": "Constructor to set the total supply of tokens."
+				},
+				"safeTransfer(address,uint256)": {
+					"details": "Public function for safe token transfer. Transfers tokens from the sender to the specified address if safe conditions are met.",
+					"params": {
+						"_amount": "The amount of tokens to transfer.",
+						"_to": "The recipient address."
+					}
+				}
+			},
+			"title": "UnburnableToken",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NFT11_MinimalToken.sol": "UnburnableToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NFT11_MinimalToken.sol": {
+			"keccak256": "0x66a12d1491245f4498432a3db67f5fd863b68117d644f8c4e7cb20cf65a2f54a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://081bc3807433685fd0dcd245f2aefb2c94824bbe713e6738e0674819a81cc3ac",
+				"dweb:/ipfs/QmUxmXeiv2AGWLiZex91La7GoLKTYKnt2Kki9YoDSumx8h"
+			]
+		}
+	},
+	"version": 1
+}

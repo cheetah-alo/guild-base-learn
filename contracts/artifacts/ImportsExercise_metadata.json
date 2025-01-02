@@ -1,0 +1,183 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getHaiku",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "line1",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line2",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line3",
+								"type": "string"
+							}
+						],
+						"internalType": "struct SillyStringUtils.Haiku",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "haiku",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "line1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "line2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "line3",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_line1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_line2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_line3",
+						"type": "string"
+					}
+				],
+				"name": "saveHaiku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shruggieHaiku",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "line1",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line2",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line3",
+								"type": "string"
+							}
+						],
+						"internalType": "struct SillyStringUtils.Haiku",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Contract to manage and manipulate Haiku using SillyStringUtils library.",
+			"kind": "dev",
+			"methods": {
+				"getHaiku()": {
+					"details": "Function to retrieve the saved Haiku.",
+					"returns": {
+						"_0": "The Haiku as a SillyStringUtils.Haiku type."
+					}
+				},
+				"saveHaiku(string,string,string)": {
+					"details": "Function to save a Haiku.",
+					"params": {
+						"_line1": "The first line of the Haiku.",
+						"_line2": "The second line of the Haiku.",
+						"_line3": "The third line of the Haiku."
+					}
+				},
+				"shruggieHaiku()": {
+					"details": "Function to append a shrugging emoji to the third line of the Haiku.",
+					"returns": {
+						"_0": "A new Haiku with the modified third line."
+					}
+				}
+			},
+			"title": "ImportsExercise",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NFT8_Imports.sol": "ImportsExercise"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NFT8_Imports.sol": {
+			"keccak256": "0xca66a0dfa94841b3a97a2ecc3c51e009d04b05b2736e3d9ea663612ed4d02417",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca2c2bbf85c418b08d36761e431b476a60447d9b22431f6e6b6036fb79edf29f",
+				"dweb:/ipfs/QmXvHD5zRg9d67HerbY9fpu9xVbFAQenxfcQrgDHKDtqEX"
+			]
+		},
+		"contracts/SillyStringUtils.sol": {
+			"keccak256": "0x66130cfeca5c8a3905327ccae0d28bc1cda0c9e1365f17aef5d9f738f154afc3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://942a2ef7a0b90321e55ef4b3e7439951734a35e69c3670ae36239265b965b967",
+				"dweb:/ipfs/QmZV8XSmm46xReXMpecVQjLNHSt7PxY7oYpLsi98FxXUeY"
+			]
+		}
+	},
+	"version": 1
+}

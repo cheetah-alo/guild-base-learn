@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "contract AddressBook",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NFT10_AddressBookFactory.sol": "AddressBookFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/AddressBook.sol": {
+			"keccak256": "0xf677bd5b95d5ac44190510b148f663b296c4166cf2cdce038c4a2c223d75cdc9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://19bd291cd5777f0051e4f29d143ef2f57fb62e080e6c018a30bb562b97f39078",
+				"dweb:/ipfs/QmQPH1H8MQYTAC3gVn8KyUbYYDHx8GDJFbbqgTKXiZo9Vb"
+			]
+		},
+		"contracts/NFT10_AddressBookFactory.sol": {
+			"keccak256": "0x5780b30bc8d2ea63c19350c34997000f2572f00ad6ede6ae7d531293090b4e96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7bdf7be3d90081c7a57f875f589ff0aa4bc72da078c464073ce5a7f15495b7e5",
+				"dweb:/ipfs/QmU2VmHpn1558e9U3HVWHEHxjdpVpvRkxDZmPVRn21bGHy"
+			]
+		}
+	},
+	"version": 1
+}
